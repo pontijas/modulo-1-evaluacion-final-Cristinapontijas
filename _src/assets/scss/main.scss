@@ -1,22 +1,22 @@
 @import "core/reset";
 @import "core/variables";
+@import "components/header";
+@import "components/footer";
 
 * {
   font-family: $font-main;
 }
 
-.header {
-  height: 100vh;
-  color: $lightest-color;
-  background-image: url(../images/cover.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+.page_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.header_title {
-  font-size: $primary-title;
-  text-transform: uppercase;
+// main
+
+.reasons_section {
+  background-color: $light-blue;
 }
 
 // borders to be erase
@@ -25,8 +25,20 @@
   border: 5px solid black;
 }
 
-.header {
+header {
   border: 5px solid red;
+}
+
+._intro {
+  border: 5px solid purple;
+}
+
+._title {
+  border: 5px solid white;
+}
+
+._text {
+  border: 5px solid white;
 }
 
 .main {
