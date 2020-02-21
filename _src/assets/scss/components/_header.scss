@@ -5,18 +5,27 @@ header {
   width: 100%;
   color: $lightest-color;
   text-align: center;
-  font-size: $secondary-text;
   background-image: url(../images/cover.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 ._title {
-  font-size: $primary-title;
+  font-size: 42px;
   text-transform: uppercase;
 }
 
 ._text {
-  font-size: $secondary-text;
+  font-size: 16px;
+}
+
+.go-reasons {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  background-color: $lightest-color;
 }

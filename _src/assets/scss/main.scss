@@ -1,7 +1,7 @@
-@import "core/reset";
 @import "core/variables";
 @import "components/header";
 @import "components/footer";
+@import "core/reset";
 
 * {
   font-family: $font-main;
@@ -29,17 +29,13 @@ header {
   border: 5px solid red;
 }
 
-._intro {
-  border: 5px solid purple;
-}
+// ._title {
+//   border: 5px solid white;
+// }
 
-._title {
-  border: 5px solid white;
-}
-
-._text {
-  border: 5px solid white;
-}
+// ._text {
+//   border: 5px solid white;
+// }
 
 .main {
   border: 5px solid rebeccapurple;
