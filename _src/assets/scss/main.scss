@@ -1,9 +1,20 @@
 @import "core/reset";
-@import "core/settings";
+@import "core/variables";
+
+* {
+  font-family: $font-main;
+}
 
 .header {
   height: 100vh;
+  color: white;
   background-image: url(../images/cover.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header_title {
+  text-transform: capitalize;
 }
 
 // borders to be erase
