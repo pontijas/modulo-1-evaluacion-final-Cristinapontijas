@@ -11,6 +11,7 @@ footer {
 
 @media all and (min-width: 768px) {
   footer {
+    font-size: 16px;
     display: flex;
     flex-direction: row;
   }
@@ -22,6 +23,10 @@ footer {
 
 .social-med_nav {
   text-transform: uppercase;
+}
+
+.copy {
+  font-size: 14px;
 }
 
 .heart {

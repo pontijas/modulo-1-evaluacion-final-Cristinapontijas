@@ -15,8 +15,55 @@
 
 // main
 
+// tips section
+
+.tips_title {
+  font-family: $font-title;
+  text-transform: capitalize;
+}
+
+.tips_subtitle {
+  font-family: $font-main;
+  color: $mid-blue;
+}
+
+.tips_text {
+  color: $grey;
+}
+
+.go-hero_btn {
+  padding: 15px 25px;
+  color: $orange;
+  background-color: $lightest-color;
+  border: 2px solid $orange;
+  border-radius: 22.5px;
+}
+
+// reasons section
+
 .reasons_section {
   background-color: $light-blue;
+  font-size: 18px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat (5, 1fr);
+}
+
+.reasons_title {
+  font-family: $font-title;
+  text-transform: capitalize;
+  font-size: 24px;
+}
+
+.reasons_subtitle {
+  font-family: $font-title;
+}
+.more-info_btn {
+  padding: 10px 30px;
+  border: 2px solid $orange;
+  border-radius: 22.5px;
+  color: $lightest-color;
+  background-color: $orange;
 }
 
 // borders to be erase
