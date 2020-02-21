@@ -7,14 +7,16 @@
 
 .header {
   height: 100vh;
-  color: white;
+  color: $lightest-color;
   background-image: url(../images/cover.jpg);
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .header_title {
-  text-transform: capitalize;
+  font-size: $primary-title;
+  text-transform: uppercase;
 }
 
 // borders to be erase
