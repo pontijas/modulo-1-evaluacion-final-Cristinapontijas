@@ -14,19 +14,27 @@ footer {
     font-size: 16px;
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
   }
 }
 
-.blog_nav {
-  text-transform: uppercase;
+ul li {
+  list-style: none;
+
+  & a {
+    text-decoration: none;
+    color: $lightest-color;
+  }
 }
 
-.social-med_nav {
+nav {
   text-transform: uppercase;
+  padding: 10px 30px;
 }
 
 .copy {
   font-size: 14px;
+  padding: 10px 30px;
 }
 
 .heart {
