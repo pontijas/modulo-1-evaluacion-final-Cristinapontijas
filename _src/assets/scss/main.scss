@@ -16,31 +16,67 @@
 // main
 
 // tips section
+
 .tips_section {
-  padding: 15px;
+  padding: 30px 15px 40px 15px;
 }
 
 .tips_title {
+  font-size: 24px;
   font-family: $font-title;
   text-transform: capitalize;
 }
 
 .tips_subtitle {
+  font-size: 14px;
   font-family: $font-main;
   color: $mid-blue;
 }
 
 .tips_text {
+  font-size: 18px;
   color: $grey;
+  padding: 15px 0;
 }
 
-.go-hero_btn {
+.tips_btn {
   text-decoration: none;
-  padding: 15px 25px;
+  margin: 15px 0;
+  display: inline-block;
+  padding: 10px 32.5px;
   color: $orange;
   background-color: $lightest-color;
   border: 2px solid $orange;
   border-radius: 22.5px;
+  transition: all ease 0.3s;
+
+  &:hover {
+    background-color: $orange;
+    color: $lightest-color;
+    transform: scale(1.2);
+  }
+}
+
+@media all and (min-width: 768px) {
+  .tips_title {
+    font-size: 26px;
+  }
+  .tips_text {
+    font-size: 20px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .tips_subtitle {
+    font-size: 16px;
+  }
+  .tips_title {
+    font-size: 32px;
+  }
+  .tips_text {
+    font-size: 20px;
+    width: 60%;
+  }
 }
 
 // reasons section
@@ -69,30 +105,12 @@
   border-radius: 22.5px;
   color: $lightest-color;
   background-color: $orange;
+  transition: all ease 0.3s;
+
+  &:hover {
+    background-color: $lightest-color;
+    color: $orange;
+    border: 2px solid $orange;
+    transform: scale(1.2);
+  }
 }
-
-// borders to be erase
-
-// .page_container {
-//   border: 5px solid black;
-// }
-
-// header {
-//   border: 5px solid red;
-// }
-
-// ._title {
-//   border: 5px solid white;
-// }
-
-// ._text {
-//   border: 5px solid white;
-// }
-
-.main {
-  border: 5px solid rebeccapurple;
-}
-
-// .footer {
-//   border: 5px solid yellow;
-// }
