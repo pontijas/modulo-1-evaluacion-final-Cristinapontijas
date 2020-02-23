@@ -2,10 +2,11 @@
 
 footer {
   width: 100%;
+  padding: 60px;
   color: $lightest-color;
   background-color: $darkest-color;
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: center;
 }
 
@@ -30,13 +31,26 @@ ul li {
 nav {
   text-transform: uppercase;
   padding: 10px 30px;
+  text-align: center;
 }
 
 .copy {
+  text-align: center;
   font-size: 14px;
   padding: 10px 30px;
 }
 
 .heart {
   color: $orange;
+}
+
+.go-hero_btn {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  background-color: $lightest-color;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
