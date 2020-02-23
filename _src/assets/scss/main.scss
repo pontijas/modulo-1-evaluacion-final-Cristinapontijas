@@ -19,7 +19,10 @@
 // tips section
 
 .tips_section {
-  padding: 30px 15px 40px 15px;
+  padding: 40px 15px 40px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .tips_title {

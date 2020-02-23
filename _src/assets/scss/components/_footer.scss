@@ -2,10 +2,6 @@
 
 footer {
   width: 100%;
-}
-
-.footer_container {
-  width: 100%;
   padding: 60px;
   color: $lightest-color;
   background-color: $darkest-color;
@@ -57,6 +53,18 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  top: -20px;
+  animation-name: rotation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+// animations
+
+@keyframes rotation {
+  from {
+    transform: rotate (0deg);
+  }
+  to {
+    transform: rotate (360deg);
+  }
 }

@@ -1,6 +1,7 @@
 // reasons section
 
 .reasons_section {
+  padding: 6% 11%;
   background-color: $light-blue;
 }
 
@@ -22,6 +23,7 @@
 
 .more-info_btn {
   text-decoration: none;
+  display: inline-block;
   padding: 10px 30px;
   border: 2px solid $orange;
   border-radius: 22.5px;
@@ -78,4 +80,44 @@
   text-align: center;
   grid-column: 1/4;
   grid-row: 3/4;
+}
+
+// responsive
+
+@media all and (max-width: 767px) {
+  .grid_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr repeat(3, 20vh) 1fr;
+    // grid-gap: 30px 30px;
+  }
+  .grid_item-1 {
+    text-align: center;
+    grid-row: 1/2;
+    grid-column: span 1;
+  }
+
+  .grid_item-2 {
+    text-align: center;
+    grid-row: 2/3;
+    grid-column: span 1;
+  }
+
+  .grid_item-3 {
+    text-align: center;
+    grid-row: 3/4;
+    grid-column: span 1;
+  }
+
+  .grid_item-4 {
+    text-align: center;
+    grid-row: 4/5;
+    grid-column: span 1;
+  }
+
+  .grid_item-5 {
+    text-align: center;
+    grid-row: 5/6;
+    grid-column: span 1;
+  }
 }
