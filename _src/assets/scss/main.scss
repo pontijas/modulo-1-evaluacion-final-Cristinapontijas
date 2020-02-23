@@ -1,6 +1,7 @@
 @import "core/variables";
 @import "components/header";
 @import "components/footer";
+@import "components/reasons-section";
 @import "core/reset";
 
 * {
@@ -76,41 +77,5 @@
   .tips_text {
     font-size: 20px;
     width: 60%;
-  }
-}
-
-// reasons section
-
-.reasons_section {
-  background-color: $light-blue;
-  font-size: 18px;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat (5, 1fr);
-}
-
-.reasons_title {
-  font-family: $font-title;
-  text-transform: capitalize;
-  font-size: 24px;
-}
-
-.reasons_subtitle {
-  font-family: $font-title;
-}
-.more-info_btn {
-  text-decoration: none;
-  padding: 10px 30px;
-  border: 2px solid $orange;
-  border-radius: 22.5px;
-  color: $lightest-color;
-  background-color: $orange;
-  transition: all ease 0.3s;
-
-  &:hover {
-    background-color: $lightest-color;
-    color: $orange;
-    border: 2px solid $orange;
-    transform: scale(1.2);
   }
 }
