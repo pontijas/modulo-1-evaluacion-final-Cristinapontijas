@@ -19,6 +19,36 @@
 
 .reasons_subtitle {
   font-family: $font-title;
+  font-size: 18px;
+}
+
+.reasons_text {
+  font-family: $font-main;
+  font-size: 18px;
+}
+
+@media all and (min-width: 768px) {
+  .reasons_subtitle {
+    font-size: 24px;
+  }
+  .reasons_title {
+    font-size: 26px;
+  }
+  .reasons_text {
+    font-size: 20px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .reasons_subtitle {
+    font-size: 24px;
+  }
+  .reasons_title {
+    font-size: 32px;
+  }
+  .reasons_text {
+    font-size: 20px;
+  }
 }
 
 .more-info_btn {
