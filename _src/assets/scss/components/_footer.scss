@@ -1,7 +1,11 @@
 // footer
 
-footer {
-  width: 100%;
+.footer {
+  height: 100%;
+  background-color: $darkest-color;
+}
+
+.nav_container {
   padding: 60px;
   color: $lightest-color;
   background-color: $darkest-color;
@@ -11,8 +15,8 @@ footer {
   justify-content: center;
 }
 
-@media all and (max-width: 768px) {
-  footer {
+@media all and (max-width: 767px) {
+  .nav_container {
     text-align: center;
     font-size: 16px;
     display: flex;
@@ -20,6 +24,8 @@ footer {
     align-items: center;
   }
 }
+
+// no ponemos selectores
 
 ul li {
   list-style: none;
@@ -42,6 +48,13 @@ nav {
 
 .heart {
   color: $orange;
+}
+
+.btn_container {
+  position: relative;
+  top: -25px;
+  left: 48%;
+  display: inline-block;
 }
 
 .go-hero_btn {
