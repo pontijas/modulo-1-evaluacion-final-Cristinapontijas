@@ -74,3 +74,22 @@
     width: 60%;
   }
 }
+
+// special section
+
+.special_section {
+  background-color: $orange;
+}
+
+@media all and (max-width: 767px) {
+  .special_section {
+    display: none;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .special_container {
+    display: flex;
+    flex-direction: row;
+  }
+}
